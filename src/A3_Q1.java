@@ -33,5 +33,28 @@ public class A3_Q1 {
             }
         }
 
+        // Display jackpot message
+        System.out.println();
+        System.out.println("----$$$$-------$$$$-------$$$$-------$$$$-------$$$$----$$$$----");
+        System.out.println("     Your Jackpot for Concordia mid-degree Meritas Program is:");
+        System.out.println("----$$$$-------$$$$-------$$$$-------$$$$-------$$$$----$$$$----");
+        System.out.println();
+
+        // Course data storage
+        int[][] coursesData = {
+                {1, 232, 8},     // Category, Course number and Merit points
+                {2, 248, 15},
+                {3, 228, 24},
+                {4, 233, 31},
+                {5, 249, 37},
+                {6, 282, 49},
+                {7, 348, 51},
+                {8, 352, 65},
+                {9, 346, 79}
+        };
+
+        int cumulativeCryptoSkill = 0;
+
+
     }
 }
