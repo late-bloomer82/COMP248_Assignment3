@@ -63,7 +63,7 @@ public class A3_Q1 {
 
             System.out.print("In the merit points of ");
 
-            // Special handling for ENCS 282
+            // Handling for ENCS 282
             if (courseNumber == 282) {
                 System.out.print("ENCS ");
             } else {
